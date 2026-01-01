@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGMA WEB DEVELOPMENT COURSE - TEST 1</title>
+    <link rel="icon" type="image" href="./SWD.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-logo">
+          <img src="./SWD.svg" alt="navbar logo image" />
+        </div>
+
+        <ul>
+          <li><a href="./video.html">Videos</a></li>
+          <li><a href="./audio.html">Audios</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="video-container">
+        <div class="local-device">
+          <video src="./assets/aaiyeDekhteHain.mp4" controls></video>
+          <h3>Local Device Video Upload(1) with controls attribute</h3>
+        </div>
+        <div>
+          <video src="./assets/ChaloBhyiDekho.mp4" controls autoplay></video>
+          <h3>
+            Local Device Video Upload(2) with autoplay, controls attributes
+          </h3>
+        </div>
+        <div>
+          <video
+            src="./assets/PyariSamajhGayi.mp4"
+            muted
+            autoplay
+            controls
+          ></video>
+          <h3>
+            Local Device Video Upload(3) with muted, autoplay, controls
+            attributes
+          </h3>
+        </div>
+        <div>
+          <video
+            src="./assets/YeKyaHai.mp4"
+            loop
+            muted
+            
+            controls
+            poster="./assets/poster.png"
+          ></video>
+          <h3>
+            Local Device Video Upload(4) with loop, muted, autoplay, controls
+            attributes
+          </h3>
+        </div>
+
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/fhoDRB53DwY?si=9D9KLNzHuuQ77sAf"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <h3>Exbedded Video Link 1</h3>
+        </div>
+
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5xFRg_TzlAg?si=UHJ1hJk3R10pb6oO"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <h3>Embedded Video Link 2</h3>
+        </div>
+        
+      </div>
+    </main>
+    <footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h2>Sigma Web Dev</h2>
+      <p>
+        © All rights reserved <br>
+        Sigma Web Dev – Code with Harry <br>
+        <span>Made by Abhishek</span>
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Important Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="video.html">Videos</a></li>
+        <li><a href="audio.html">Audios</a></li>
+        <li><a href="https://www.codewithharry.com/" target="_blank">Code With Harry</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+  </body>
+</html>

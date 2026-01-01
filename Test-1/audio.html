@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGMA WEB DEVELOPMENT COURSE - TEST 1</title>
+    <link rel="icon" type="image" href="./SWD.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-logo">
+          <img src="./SWD.svg" alt="navbar logo image" />
+        </div>
+
+        <ul>
+          <li><a href="./video.html">Videos</a></li>
+          <li><a href="./audio.html">Audios</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="audio-container">
+        <div class="local-device">
+          <audio src="./assets/Audios/mario_bros.mp3" controls autoplay></audio>
+          <h3>Local Device Audio Sample(1) with controls attribute.</h3>
+        </div>
+        <div>
+          <audio
+            src="./assets/Audios/Maaf Karna Gussay Mein Idhar Udhar Nikal Jata Hoon - Moin Akhtar _ Loose Talk.mp3"
+            controls
+            muted
+          ></audio>
+          <h3>Local Device Audio Sample(2) with controls, muted attribute.</h3>
+        </div>
+        <div>
+          <audio
+            src="./assets/Audios/8bitmercy-haa-funny😂😂-8bitbeg4mercy-haa-meme-made-with-Voicemod.mp3"
+            muted
+            autoplay
+            controls
+          ></audio>
+          <h3>
+            Local Device Audio Upload(3) with muted, autoplay, controls
+            attributes
+          </h3>
+        </div>
+        <div>
+          <audio src="./assets/Audios/mario.mp3" loop muted controls></audio>
+          <h3>
+            Local Device Audio Upload(4) with loop, muted, autoplay, controls
+            attributes
+          </h3>
+        </div>
+
+        <div>
+          <audio controls>
+            <source
+              src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+          <h3>Online Audio Sample (Direct MP3 Link)</h3>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h2>Sigma Web Dev</h2>
+      <p>
+        © All rights reserved <br>
+        Sigma Web Dev – Code with Harry <br>
+        <span>Made by Abhishek</span>
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Important Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="video.html">Videos</a></li>
+        <li><a href="audio.html">Audios</a></li>
+        <li><a href="https://www.codewithharry.com/" target="_blank">Code With Harry</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+  </body>
+</html>
